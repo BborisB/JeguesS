@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-5">JeguesS</h1>
+        <table class="mb-3 table table-bordered align-middle">
+            <tbody>
+                <tr id="inputs">
+                    <td>#1</td>
+                    <td><input type="text" readonly class="form-control "></td>
+                    <td><input type="text" readonly class="form-control "></td>
+                    <td><input type="text" readonly class="form-control "></td>
+                    <td><input type="text" readonly class="form-control "></td>
+                    <td><input type="text" readonly class="form-control "></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mb-5">
+            <button id="resetBtn" class="btn btn-primary">Reinitialiser</button>
+            <button id="submitBtn" class="btn btn-primary">Valider</button>
+        </div>
+        <table class="w-25 table table-bordered">
+            <thead>
+                <th colspan="5">Couleur</th>
+            </thead>
+            <tbody id="colors">
+                <tr>
+                    <td><button type="text" readonly class="w-100 btn bg-dark"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="text" readonly class="w-100 btn bg-success"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="text" readonly class="w-100 btn bg-warning"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="text" readonly class="w-100 btn bg-danger"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="text" readonly class="w-100 btn bg-info"></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
