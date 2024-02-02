@@ -2,3 +2,18 @@ button
 {
     height: 40px;
 }
+
+table.inputs
+{
+    border-collapse: separate;
+    border-spacing: 0;
+}
+table.inputs td
+{
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+table.inputs td:last-child
+{
+    border-right-width: 1px;
+}
